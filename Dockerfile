@@ -5,6 +5,6 @@ RUN  mkdir /usr/src/myapp
 
 COPY HelloWorld.cpp /usr/src/myapp
 WORKDIR /usr/src/myapp
-RUN gcc HelloWorld.cpp
+RUN g++ HelloWorld.cpp
 
 CMD ["./a.out"]
